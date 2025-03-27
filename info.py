@@ -112,7 +112,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 
 # Token Verification Info :
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', False))
 VERIFY_SHORTLINK_URL = environ.get('VERIFY_SHORTLINK_URL', 'https://adrinolinks.in/')
 VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', 'c6d63938c70515ae2d6b49312e6e3471b4a487ac')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/+MDm9tAYjQ-QyZWI1')
