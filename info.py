@@ -89,7 +89,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/smilesupportgroup')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+ygnTnY_ro_0wZDRl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/crunchyroll_hindi_dub_yt')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'smilesupportgroup') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/yoursmileyt')
 
@@ -156,7 +156,7 @@ YEARS = ["1900", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998",
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
